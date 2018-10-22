@@ -1,9 +1,9 @@
 # ecorrect
 ecorrect
 
-================================ ecorrect ================================
+============================================ ecorrect ============================================
 
-                             ...Description... 
+                                               ...Description... 
 
  ecorrect splits a target spectrum into chunks, and if chunks are part of 
  continuum regions then RMSE flux and mean error values are calculated 
@@ -15,11 +15,11 @@ ecorrect
  for saturated regions of absorption. These data points are not used in 
  calculating mean lines of best fit.
 
-==========================================================================
+=================================================================================================
 
- Usage:  ecorrect <ASCII spectum filename> [--options]
+ Usage:  ecorrect [ASCII spectum filename] [--options]
 
-==========================================================================
+=================================================================================================
 
                               ...Options... 
 
@@ -37,4 +37,4 @@ ecorrect
      ............ : bypasses the interactive plot and instead saves the 
      ............ : plot to file.
 
-==========================================================================
+=================================================================================================
