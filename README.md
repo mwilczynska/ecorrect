@@ -38,3 +38,20 @@ ecorrect
      ............ : plot to file.
 
 =================================================================================================
+
+Example output:  
+  
+Number of pixels in spectrum: 174533  
+Number of Angstroms in spectrum: 4546.16526537  
+Dividing spectrum into 800 chunks.  
+Each chunk is 5.68270658172 Angstroms in size.  
+Each chunk is 218 pixels in size.  
+Chunk is rejected if 0.99  < mean flux < 1.01  
+Value of RMSE flux is 0.117595487145  
+Value of mean error is 0.0911740201817  
+Equation of line of best fit for RMSE flux is:  
+[  1.44730696e-06   1.07922478e-01]  
+Equation of line of best fit for mean error is:  
+[  2.52224239e-08   9.10054473e-02]  
+
+![Example plot output (pdf image)](https://github.com/mwilczynska/ecorrect/files/2503987/ecorrect.pdf)
